@@ -32,11 +32,21 @@ namespace ArendaAvto.ViewModels
             get => _totalCar;
             set => this.RaiseAndSetIfChanged(ref _totalCar, value);
         }
+
+        private bool _ButtonVisibleCars;
+        public bool ButtonVisibleCars
+        {
+            get => _ButtonVisibleCars;
+            set => this.RaiseAndSetIfChanged(ref _ButtonVisibleCars, value);
+        }
+        public static ShowCarsViewModel Sels;
         // создание списка дл€ вывода
         public List<Cars> _carsList;
         public List<Cars> CarsList { get => _carsList; set => this.RaiseAndSetIfChanged(ref _carsList, value); }
         public ShowCarsViewModel()
         {
+            ButtonVisibleCars = true;
+            Sels = this;
             _ = LoadCarsAsync();
         }
         private async Task LoadCarsAsync()
@@ -54,9 +64,17 @@ namespace ArendaAvto.ViewModels
             }
         }
 
+        
+
+        
         public void ToPageGlav()
         {
             MainWindowViewModel.Self.PageContent = new Glav();
+        }
+
+        public void ToPageCarsAdd()
+        {
+            MainWindowViewModel.Self.PageContent = new CarsAdd();
         }
 
         //фильтраци€
@@ -148,12 +166,16 @@ namespace ArendaAvto.ViewModels
             // галочка с ролью
             if (_photo)
             {
-                //MaterialList = MaterialList.Where(x => x.Image.HasValue && x.Image.Value > 0).ToList();
+                // ‘ильтруем список, оставл€€ только автомобили с фотографией
+                CarsList = CarsList.Where(x => !string.IsNullOrEmpty(x.Photo)).ToList();
             }
+
             if (_unphoto)
             {
-                //MaterialList = MaterialList.Where(x => !x.Image.HasValue).ToList();
+                // ‘ильтруем список, оставл€€ только автомобили без фотографии
+                CarsList = CarsList.Where(x => string.IsNullOrEmpty(x.Photo)).ToList();
             }
+
             // подсчет записй
             SortCar = CarsList.Count;
         }

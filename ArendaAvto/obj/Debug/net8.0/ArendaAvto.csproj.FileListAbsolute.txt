@@ -638,3 +638,4 @@ C:\Users\damir\Desktop\ArendaAvto\ArendaAvto\ArendaAvto\ArendaAvto\ArendaAvto\ob
 C:\Users\damir\Desktop\ArendaAvto\ArendaAvto\ArendaAvto\ArendaAvto\ArendaAvto\obj\Debug\net8.0\ArendaAvto.genruntimeconfig.cache
 C:\Users\damir\Desktop\ArendaAvto\ArendaAvto\ArendaAvto\ArendaAvto\ArendaAvto\obj\Debug\net8.0\ref\ArendaAvto.dll
 C:\Users\damir\Desktop\ArendaAvto\ArendaAvto\ArendaAvto\ArendaAvto\ArendaAvto\bin\Debug\net8.0\Intersoft.Crosslight.dll
+C:\Users\damir\Desktop\ArendaAvto\ArendaAvto\ArendaAvto\ArendaAvto\ArendaAvto\obj\Debug\net8.0\ArendaAvto.sourcelink.json

@@ -10,6 +10,7 @@ using ArendaAvto.Models;
 using ReactiveUI;
 using Avalonia.Controls;
 using System.Linq;
+using Supabase.Interfaces;
 
 namespace ArendaAvto.ViewModels
 {
@@ -22,13 +23,12 @@ namespace ArendaAvto.ViewModels
         {
             get => _pageContent;
             set => this.RaiseAndSetIfChanged(ref _pageContent, value);
-            
-        }
 
+        }
         public static MainWindowViewModel Self;
         public readonly Supabase.Client _supabase; // Добавляем поле для клиента Supabase
 
-        public  MainWindowViewModel()
+        public MainWindowViewModel()
         {
             Self = this;
             string url = "https://hprxdibkvadmmsvxyavr.supabase.co";
@@ -139,6 +139,7 @@ namespace ArendaAvto.ViewModels
                 return new List<Cars>(); // Возвращаем пустой список в случае ошибки
             }
         }
+
         // Client
         public async Task<List<Client>> GetClientsAsync()
         {

@@ -35,6 +35,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/damir/Desktop/ArendaAvto/ArendaAvto/ArendaAvto/ArendaAvto/ArendaAvto/Views/Auth.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/damir/Desktop/ArendaAvto/ArendaAvto/ArendaAvto/ArendaAvto/ArendaAvto/Views/CarsAdd.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/damir/Desktop/ArendaAvto/ArendaAvto/ArendaAvto/ArendaAvto/ArendaAvto/Views/Glav.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

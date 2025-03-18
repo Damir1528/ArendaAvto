@@ -1,0 +1,67 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:vm="using:ArendaAvto.ViewModels"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ArendaAvto.CarsAdd"
+			 x:DataType="vm:CarsAddViewModel">
+	<Grid>
+		<StackPanel Margin="20">
+			<TextBlock Text="Марка" />
+			<TextBox Text="{Binding NewCar.Marka}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Модель" />
+			<TextBox Text="{Binding NewCar.Model}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Год создания" />
+			<TextBox Text="{Binding NewCar.Year_create}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Тип автомобиля" />
+			<TextBox Text="{Binding NewCar.Type_car}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Класс" />
+			<TextBox Text="{Binding NewCar.Class}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Стоимость (за 24 часа)" />
+			<TextBox Text="{Binding NewCar.Cost}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Госномер" />
+			<TextBox Text="{Binding NewCar.Gos_number}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Пробег" />
+			<TextBox Text="{Binding NewCar.Probeg}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Состояние" />
+			<TextBox Text="{Binding NewCar.Sostoyanie}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Фото" />
+			<TextBox Text="{Binding NewCar.Photo}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Доступ" />
+			<TextBox Text="{Binding NewCar.Dostup}" Background="#D0E7FF" Foreground="#333333"
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<TextBlock Text="Количество топлива" />
+			<TextBox Text="{Binding NewCar.Toplivo}" Background="#D0E7FF" Foreground="#333333" 
+					 BorderBrush="#007ACC" BorderThickness="2"/>
+
+			<Button Content="Добавить машину" Command="{Binding AddCarAsync}" Margin="20,10,0,10" 
+					Padding="15,15,15,15" FontSize="14"
+					Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"/>
+			<Button Content="Назад" Margin="20,10,0,10" Padding="15,15,15,15" FontSize="14"
+						Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+						HorizontalAlignment="Center" Command="{Binding ToPageGlav}"/>
+		</StackPanel>
+	</Grid>
+</UserControl>

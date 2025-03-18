@@ -3,56 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\views\\showstatistic.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\views\\showstatistic.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\viewmodels\\carsaddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\viewmodels\\carsaddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\views\\glav.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\views\\glav.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\views\\showcars.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\views\\showcars.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\views\\showclient.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\views\\showclient.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\views\\showto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\views\\showto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\viewmodels\\showstatisticviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\viewmodels\\showstatisticviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\views\\carsadd.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\views\\carsadd.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\viewmodels\\showcarsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\viewmodels\\showcarsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\views\\showcars.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\views\\showcars.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\views\\glav.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\views\\glav.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\converter\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\converter\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\models\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\models\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\views\\showarenda.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\views\\showarenda.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\models\\arenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\models\\arenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\views\\auth.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\views\\auth.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|c:\\users\\damir\\desktop\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\arendaavto\\converter\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAA89A5-FA25-49CF-9555-22F63DCFC3CF}|ArendaAvto\\ArendaAvto.csproj|solutionrelative:arendaavto\\converter\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,135 +58,144 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShowClient.axaml",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowClient.axaml",
-              "RelativeDocumentMoniker": "ArendaAvto\\Views\\ShowClient.axaml",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowClient.axaml",
-              "RelativeToolTip": "ArendaAvto\\Views\\ShowClient.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-18T00:21:56.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShowTO.axaml",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowTO.axaml",
-              "RelativeDocumentMoniker": "ArendaAvto\\Views\\ShowTO.axaml",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowTO.axaml",
-              "RelativeToolTip": "ArendaAvto\\Views\\ShowTO.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-17T23:57:54.065Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShowStatistic.axaml",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowStatistic.axaml",
-              "RelativeDocumentMoniker": "ArendaAvto\\Views\\ShowStatistic.axaml",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowStatistic.axaml",
-              "RelativeToolTip": "ArendaAvto\\Views\\ShowStatistic.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-18T00:16:39.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ShowStatisticViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\ShowStatisticViewModel.cs",
-              "RelativeDocumentMoniker": "ArendaAvto\\ViewModels\\ShowStatisticViewModel.cs",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\ShowStatisticViewModel.cs",
-              "RelativeToolTip": "ArendaAvto\\ViewModels\\ShowStatisticViewModel.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwEUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:16:25.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShowCars.axaml",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowCars.axaml",
-              "RelativeDocumentMoniker": "ArendaAvto\\Views\\ShowCars.axaml",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowCars.axaml",
-              "RelativeToolTip": "ArendaAvto\\Views\\ShowCars.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-16T23:22:28.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "ArendaAvto\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Models\\Client.cs",
-              "RelativeToolTip": "ArendaAvto\\Models\\Client.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:09:35.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ShowCarsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\ShowCarsViewModel.cs",
-              "RelativeDocumentMoniker": "ArendaAvto\\ViewModels\\ShowCarsViewModel.cs",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\ShowCarsViewModel.cs",
-              "RelativeToolTip": "ArendaAvto\\ViewModels\\ShowCarsViewModel.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T23:22:25.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Glav.axaml",
               "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\Glav.axaml",
               "RelativeDocumentMoniker": "ArendaAvto\\Views\\Glav.axaml",
               "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\Glav.axaml",
               "RelativeToolTip": "ArendaAvto\\Views\\Glav.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-18T00:08:02.411Z",
+              "WhenOpened": "2025-03-18T21:38:12.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\AuthViewModel.cs",
+              "RelativeDocumentMoniker": "ArendaAvto\\ViewModels\\AuthViewModel.cs",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\AuthViewModel.cs",
+              "RelativeToolTip": "ArendaAvto\\ViewModels\\AuthViewModel.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAA7wHkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T21:29:23.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ArendaAvto\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ArendaAvto\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAADqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T21:10:30.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarsAddViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\CarsAddViewModel.cs",
+              "RelativeDocumentMoniker": "ArendaAvto\\ViewModels\\CarsAddViewModel.cs",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\CarsAddViewModel.cs",
+              "RelativeToolTip": "ArendaAvto\\ViewModels\\CarsAddViewModel.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T21:09:07.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarsAdd.axaml",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\CarsAdd.axaml",
+              "RelativeDocumentMoniker": "ArendaAvto\\Views\\CarsAdd.axaml",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\CarsAdd.axaml",
+              "RelativeToolTip": "ArendaAvto\\Views\\CarsAdd.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T17:47:50.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowCarsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\ShowCarsViewModel.cs",
+              "RelativeDocumentMoniker": "ArendaAvto\\ViewModels\\ShowCarsViewModel.cs",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewModels\\ShowCarsViewModel.cs",
+              "RelativeToolTip": "ArendaAvto\\ViewModels\\ShowCarsViewModel.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAwKUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T17:26:31.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowCars.axaml",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowCars.axaml",
+              "RelativeDocumentMoniker": "ArendaAvto\\Views\\ShowCars.axaml",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowCars.axaml",
+              "RelativeToolTip": "ArendaAvto\\Views\\ShowCars.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T17:30:17.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImageConverter.cs",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Converter\\ImageConverter.cs",
+              "RelativeDocumentMoniker": "ArendaAvto\\Converter\\ImageConverter.cs",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Converter\\ImageConverter.cs",
+              "RelativeToolTip": "ArendaAvto\\Converter\\ImageConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T21:21:51.93Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Program.cs",
+              "RelativeDocumentMoniker": "ArendaAvto\\Program.cs",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Program.cs",
+              "RelativeToolTip": "ArendaAvto\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T21:10:05.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewLocator.cs",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewLocator.cs",
+              "RelativeDocumentMoniker": "ArendaAvto\\ViewLocator.cs",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ViewLocator.cs",
+              "RelativeToolTip": "ArendaAvto\\ViewLocator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T21:10:02.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Cars.cs",
               "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Models\\Cars.cs",
               "RelativeDocumentMoniker": "ArendaAvto\\Models\\Cars.cs",
               "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Models\\Cars.cs",
               "RelativeToolTip": "ArendaAvto\\Models\\Cars.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:09:25.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ShowArenda.axaml",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowArenda.axaml",
-              "RelativeDocumentMoniker": "ArendaAvto\\Views\\ShowArenda.axaml",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\ShowArenda.axaml",
-              "RelativeToolTip": "ArendaAvto\\Views\\ShowArenda.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-17T23:37:29.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T17:43:51.206Z"
             },
             {
               "$type": "Document",
@@ -201,34 +206,7 @@
               "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Views\\Auth.axaml",
               "RelativeToolTip": "ArendaAvto\\Views\\Auth.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-17T23:22:37.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Arenda.cs",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Models\\Arenda.cs",
-              "RelativeDocumentMoniker": "ArendaAvto\\Models\\Arenda.cs",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Models\\Arenda.cs",
-              "RelativeToolTip": "ArendaAvto\\Models\\Arenda.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T22:13:13.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ImageConverter.cs",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Converter\\ImageConverter.cs",
-              "RelativeDocumentMoniker": "ArendaAvto\\Converter\\ImageConverter.cs",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\ArendaAvto\\Converter\\ImageConverter.cs",
-              "RelativeToolTip": "ArendaAvto\\Converter\\ImageConverter.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T23:21:18.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T14:28:12.56Z"
             }
           ]
         },

@@ -23,7 +23,8 @@
 								 VerticalAlignment="Top" Margin="10,20,0,0"/>
 					</StackPanel>
 					<!--Сортировка-->
-					<Button Command="" Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+					<Button Command="{Binding ToPageCarsAdd}" Background="#D0E7FF" 
+							Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2" IsVisible="{Binding ButtonVisibleCars}"
 							Margin="20,0,0,0" >Добавить машину</Button>
 					
 					<StackPanel Margin="20,0,0,0">
