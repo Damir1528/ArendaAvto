@@ -1,0 +1,143 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:ArendaAvto.ViewModels"
+			 xmlns:conv="using:ArendaAvto.Converter"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ArendaAvto.ShowCars"
+			 x:DataType="vm:ShowCarsViewModel">
+
+	<UserControl.Resources>
+		<conv:ImageConverter x:Key="ImageConverter" />
+	</UserControl.Resources>
+	
+	<Grid Background="#FFFFFF">
+			<StackPanel>
+				<TextBlock Text="Автомобили" TextAlignment="Center" Margin="12" FontSize="20"/>
+				<StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10">
+					<!--Поиск-->
+					<StackPanel>
+						<TextBox Watermark="Введите марку машины" Text="{Binding SearchCars}"
+								 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2" Height="50"
+								 VerticalAlignment="Top" Margin="10,20,0,0"/>
+					</StackPanel>
+					<!--Сортировка-->
+					<Button Command="" Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+							Margin="20,0,0,0" >Добавить машину</Button>
+					
+					<StackPanel Margin="20,0,0,0">
+						<RadioButton Content="Все" IsChecked="{Binding All}"/>
+						<RadioButton Content="Бизнес" IsChecked="{Binding Biznes}" />
+						<RadioButton Content="Комфорт" IsChecked="{Binding Komfort}" />
+						<RadioButton Content="Спорт" IsChecked="{Binding Sport}" />
+					</StackPanel>
+					<!--По логину с алфавитом-->
+					<ComboBox SelectedIndex="{Binding SelectedSort}"  Margin="20,30,0,0"
+							  Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2">
+						<ComboBoxItem Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC"
+									  BorderThickness="2">Без сортировки</ComboBoxItem>
+						<ComboBoxItem Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC"
+									  BorderThickness="2">По марке</ComboBoxItem>
+					</ComboBox>
+					<StackPanel IsVisible="{Binding IsVisibleSort}"  Margin="20,0,0,0" >
+						<RadioButton Content="По возрастанию" IsChecked="{Binding SortUp}"
+									 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"/>
+						<RadioButton Content="По убыванию" IsChecked="{Binding SortDown}"
+									 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"/>
+					</StackPanel>
+					<!--Галочка-->
+					<StackPanel Margin="20,0,0,0">
+						<CheckBox IsChecked="{Binding Photo}">Присутствует картинка</CheckBox>
+						<CheckBox IsChecked="{Binding UnPhoto}">Отсутствует картинка</CheckBox>
+					</StackPanel>
+					<Button Content="Назад" Margin="20,10,0,10" Padding="15,15,15,15" FontSize="14"
+						Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+						HorizontalAlignment="Center" Command="{Binding ToPageGlav}"/>
+				</StackPanel>
+					<StackPanel>
+						<ListBox ItemsSource="{Binding CarsList}" Grid.Row="1" Margin="10" Height="490"
+								 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+								 ScrollViewer.VerticalScrollBarVisibility="Auto"
+								 ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+							<ListBox.ItemTemplate>
+								<DataTemplate>
+
+									<StackPanel Margin="10">
+										<StackPanel Margin="10">
+											<Image Source="{Binding Photo, 
+												   Converter={StaticResource ImageConverter}}" 
+												   Width="200" Height="150" />
+										</StackPanel>
+										<TextBlock>
+											<Run Text="Марка: " />
+											<Run Text="{Binding Marka}" />
+										</TextBlock>
+
+										<TextBlock>
+											<Run Text="Модель: " />
+											<Run Text="{Binding Model}" />
+										</TextBlock>
+
+										<TextBlock>
+											<Run Text="Год выпуска: " />
+											<Run Text="{Binding Year_create}" />
+										</TextBlock>
+
+										<TextBlock>
+											<Run Text="Тип кузова: " />
+											<Run Text="{Binding Type_car}" />
+										</TextBlock>
+
+										<TextBlock>
+											<Run Text="Класс: " />
+											<Run Text="{Binding Class}" />
+										</TextBlock>
+
+										<TextBlock>
+											<Run Text="Стоимость аренды на сутки: " />
+											<Run Text="{Binding Cost}" />
+											<Run Text="руб." />
+										</TextBlock>
+
+										<TextBlock>
+											<Run Text="Гос. номер: " />
+											<Run Text="{Binding Gos_number}" />
+										</TextBlock>
+
+										<TextBlock>
+											<Run Text="Пробег: " />
+											<Run Text="{Binding Probeg}" />
+											<Run Text="км." />
+										</TextBlock>
+
+										<TextBlock>
+											<Run Text="Состояние автомобиля: " />
+											<Run Text="{Binding Sostoyanie}" />
+										</TextBlock>
+
+										<TextBlock>
+											<Run Text="Статус: " />
+											<Run Text="{Binding Dostup}" />
+										</TextBlock>
+
+										<TextBlock>
+											<Run Text="Количество топлива: " />
+											<Run Text="{Binding Toplivo}" />
+											<Run Text="л." />
+										</TextBlock>
+
+						
+									</StackPanel>
+								</DataTemplate>
+							</ListBox.ItemTemplate>
+						</ListBox>
+					</StackPanel>
+			<StackPanel Orientation="Horizontal" Grid.Row="4" Margin="20,10,20,10">
+				<TextBlock Text="{Binding SortCar}" />
+				<TextBlock Text=" из" />
+				<TextBlock Text="{Binding TotalCar}" />
+			</StackPanel>
+			</StackPanel>
+		</Grid>
+</UserControl>

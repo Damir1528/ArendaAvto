@@ -1,0 +1,102 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:ArendaAvto.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ArendaAvto.ShowClient"
+			 x:DataType="vm:ShowClientViewModel">
+
+	<Grid Background="#FFFFFF">
+		<StackPanel>
+			<TextBlock Text="Клиенты" TextAlignment="Center" Margin="12" FontSize="20"/>
+			<StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10">
+				<!--Поиск-->
+				<StackPanel>
+					<TextBox Watermark="Введите имя клиента" Text="{Binding SearchCient}"
+							 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2" Height="50"
+							 VerticalAlignment="Top" Margin="10,20,0,0"/>
+				</StackPanel>
+				<!--Сортировка-->
+				<StackPanel Margin="20,0,0,0">
+					<RadioButton Content="Все" IsChecked="{Binding All}"/>
+					<RadioButton Content="меньше 100 бонусов" IsChecked="{Binding Biznes}" />
+					<RadioButton Content="меньше 500 бонусов" IsChecked="{Binding Komfort}" />
+					<RadioButton Content="больше 500 бонсуов" IsChecked="{Binding Sport}" />
+				</StackPanel>
+				<!--По логину с алфавитом-->
+				<ComboBox SelectedIndex="{Binding SelectedSort}"  Margin="20,30,0,0"
+						  Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2">
+					<ComboBoxItem Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC"
+								  BorderThickness="2">Без сортировки</ComboBoxItem>
+					<ComboBoxItem Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC"
+								  BorderThickness="2">По фамилии</ComboBoxItem>
+				</ComboBox>
+				<StackPanel IsVisible="{Binding IsVisibleSort}"  Margin="20,0,0,0" >
+					<RadioButton Content="По возрастанию" IsChecked="{Binding SortUp}"
+								 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"/>
+					<RadioButton Content="По убыванию" IsChecked="{Binding SortDown}"
+								 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"/>
+				</StackPanel>
+				<Button Content="Назад" Margin="20,10,0,10" Padding="15,15,15,15" FontSize="14"
+					Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+					HorizontalAlignment="Center" Command="{Binding ToPageGlav}"/>
+			</StackPanel>
+			<StackPanel>
+				<ListBox ItemsSource="{Binding ClientList}" Grid.Row="1" Margin="10" Height="490"
+						 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+						 ScrollViewer.VerticalScrollBarVisibility="Auto"
+						 ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+					<ListBox.ItemTemplate>
+						<DataTemplate>
+
+							<StackPanel Margin="10">
+								<TextBlock>
+									<Run Text="Фаимилия: " />
+									<Run Text="{Binding Secondname}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Имя: " />
+									<Run Text="{Binding Firstname}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Отчестов: " />
+									<Run Text="{Binding Lastname}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Номер водительского удостоверения: " />
+									<Run Text="{Binding Number_VU}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Телефон: " />
+									<Run Text="{Binding Phone}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Почта: " />
+									<Run Text="{Binding Email}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Бонусный баланс: " />
+									<Run Text="{Binding Bonus}" />
+								</TextBlock>
+
+							</StackPanel>
+						</DataTemplate>
+					</ListBox.ItemTemplate>
+				</ListBox>
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" Grid.Row="4" Margin="20,10,20,10">
+				<TextBlock Text="{Binding SortCar}" />
+				<TextBlock Text=" из" />
+				<TextBlock Text="{Binding TotalCar}" />
+			</StackPanel>
+		</StackPanel>
+	</Grid>
+ 
+</UserControl>

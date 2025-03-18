@@ -1,0 +1,34 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:ArendaAvto.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ArendaAvto.ShowStatistic"
+			 x:DataType="vm:ShowStatisticViewModel">
+	<Grid Margin="20">
+		<StackPanel>
+			<TextBlock FontSize="24" FontWeight="Bold" Text="Статистика аренды" Margin="0,0,0,20"/>
+			<StackPanel Margin="20,0,0,0">
+			<TextBlock FontSize="18" Text="Общая стоимость аренды:"/>
+			<TextBlock FontSize="16" Text="{Binding TotalCost, StringFormat='{}{0:C}'}" />
+			<TextBlock FontSize="18" Text="Средняя стоимость аренды:" Margin="0,10,0,0"/>
+			<TextBlock FontSize="16" Text="{Binding AverageCost, StringFormat='{}{0:C}'}" />
+			<Button Content="Назад" Margin="20,10,0,10" Padding="15,15,15,15" FontSize="14"
+									Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+									HorizontalAlignment="Center" Command="{Binding ToPageGlav}"/>
+			</StackPanel>
+			<TextBlock FontSize="20" FontWeight="Bold" Text="Список аренды:" Margin="0,20,0,10"/>
+			<ListBox ItemsSource="{Binding Rentals}" Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<StackPanel Orientation="Horizontal" Margin="0,5">
+							<TextBlock Text="{Binding CarId}" Margin="0,0,10,0"/>
+							<TextBlock Text="{Binding Cost, StringFormat='{}{0:C}'}"/>
+						</StackPanel>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+		</StackPanel>
+	</Grid>
+</UserControl>

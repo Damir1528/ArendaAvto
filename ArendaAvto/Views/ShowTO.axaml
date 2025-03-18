@@ -1,0 +1,33 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:vm="using:ArendaAvto.ViewModels"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ArendaAvto.ShowTO"
+			 x:DataType="vm:ShowTOViewModel">
+	<Grid>
+<StackPanel Margin="10">
+		<TextBlock FontSize="24" FontWeight="Bold" Margin="10" TextAlignment="Center">Машины, нуждающиеся в обслуживании</TextBlock>
+		<StackPanel Margin="20,0,0,0">
+			<Button Content="Назад" Margin="20,10,0,10" Padding="15,15,15,15" FontSize="14"
+									Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+									HorizontalAlignment="Center" Command="{Binding ToPageGlav}"/>
+			</StackPanel>
+		<ListBox ItemsSource="{Binding CarsNeedingMaintenance}" Margin="10,50,10,10" Background="#D0E7FF" Foreground="#333333" 
+BorderBrush="#007ACC" BorderThickness="2">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<StackPanel Margin="10">
+								<TextBlock>
+									<Run Text="Автомобиль: " />
+									<Run Text="{Binding CarId}" />
+									<Run Text="{Binding Comment}" />
+								</TextBlock>
+					</StackPanel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+		</StackPanel>
+	</Grid>
+</UserControl>

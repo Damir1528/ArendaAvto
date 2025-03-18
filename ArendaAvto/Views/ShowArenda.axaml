@@ -1,0 +1,125 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:ArendaAvto.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ArendaAvto.ShowArenda"
+			 x:DataType="vm:ShowArendaViewModel">
+
+	<Grid Background="#FFFFFF">
+		<StackPanel>
+			<TextBlock Text="Аренда" TextAlignment="Center" Margin="12" FontSize="20"/>
+			<StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10">
+				<!--Поиск-->
+				<StackPanel>
+					<TextBox Watermark="Введите имя клиента" Text="{Binding SearchCient}"
+							 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2" Height="50"
+							 VerticalAlignment="Top" Margin="10,20,0,0"/>
+				</StackPanel>
+				<!--Сортировка-->
+				<StackPanel Margin="20,0,0,0">
+					<RadioButton Content="Все" IsChecked="{Binding All}"/>
+					<RadioButton Content="1 день аренды" IsChecked="{Binding Biznes}" />
+					<RadioButton Content="до 3-х дней аренды" IsChecked="{Binding Komfort}" />
+					<RadioButton Content="больше 7 дней аренды" IsChecked="{Binding Sport}" />
+				</StackPanel>
+				<!--По логину с алфавитом-->
+				<ComboBox SelectedIndex="{Binding SelectedSort}"  Margin="20,30,0,0"
+						  Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2">
+					<ComboBoxItem Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC"
+								  BorderThickness="2">Без сортировки</ComboBoxItem>
+					<ComboBoxItem Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC"
+								  BorderThickness="2">По фамилии</ComboBoxItem>
+				</ComboBox>
+				<StackPanel IsVisible="{Binding IsVisibleSort}"  Margin="20,0,0,0" >
+					<RadioButton Content="По возрастанию" IsChecked="{Binding SortUp}"
+								 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"/>
+					<RadioButton Content="По убыванию" IsChecked="{Binding SortDown}"
+								 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"/>
+				</StackPanel>
+				<Button Content="Назад" Margin="20,10,0,10" Padding="15,15,15,15" FontSize="14"
+					Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+					HorizontalAlignment="Center" Command="{Binding ToPageGlav}"/>
+			</StackPanel>
+			<StackPanel>
+				<ListBox ItemsSource="{Binding ArendaList}" Grid.Row="1" Margin="10" Height="490"
+						 Background="#D0E7FF" Foreground="#333333" BorderBrush="#007ACC" BorderThickness="2"
+						 ScrollViewer.VerticalScrollBarVisibility="Auto"
+						 ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+					<ListBox.ItemTemplate>
+						<DataTemplate>
+
+							<StackPanel Margin="10">
+								<TextBlock>
+									<Run Text="Автомобиль: " />
+									<Run Text="{Binding Car.Marka}" />
+									<Run Text="{Binding Car.Model}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text=" Класс автомобиля: " />
+									<Run Text="{Binding Car.Class}" />
+								</TextBlock>
+								
+								<TextBlock>
+									<Run Text="Клиент: " />
+									<Run Text="{Binding Client.Secondname}" />
+									<Run Text="{Binding Client.Firstname}" />
+									<Run Text="{Binding Client.Lastname}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Дата выдачи: " />
+									<Run Text="{Binding DataVidachi}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Дата ожидаемого возврата: " />
+									<Run Text="{Binding DataVozvrat}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Дата возврата: " />
+									<Run Text="{Binding DataFuctVozvrat}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Пробег до аренды: " />
+									<Run Text="{Binding Car.Probeg}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Пробег после аренды: " />
+									<Run Text="{Binding ProbegPosle}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Стоимость аренды: " />
+									<Run Text="{Binding Cost}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Оценка клиента: " />
+									<Run Text="{Binding Ocenka}" />
+									<Run Text="★" Foreground="Gold" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Комментарий клиента: " />
+									<Run Text="{Binding Comment}" />
+								</TextBlock>
+
+							</StackPanel>
+						</DataTemplate>
+					</ListBox.ItemTemplate>
+				</ListBox>
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" Grid.Row="4" Margin="20,10,20,10">
+				<TextBlock Text="{Binding SortCar}" />
+				<TextBlock Text=" из" />
+				<TextBlock Text="{Binding TotalCar}" />
+			</StackPanel>
+		</StackPanel>
+	</Grid>
+</UserControl>
